@@ -1,0 +1,10 @@
+baseurl = "https://colinmarc.com/worldtrip"
+languageCode = "en"
+title = "Eva and Colin's World Trip"
+theme = "arabica"
+Paginate = 5 # Number of posts per page
+enableRobotsTXT = true
+
+[params]
+  replaceGoogleFonts = "x"
+  customCSS = ["custom.css"]

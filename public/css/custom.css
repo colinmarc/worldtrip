@@ -1,0 +1,56 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active,
+a.read-more,
+a.read-more:hover,
+a.read-more:visited,
+.post a,
+.post a:visited,
+.post a:hover,
+.post a:active {
+    color: teal;
+    text-decoration: inherit;
+    font-weight: inherit;
+    border-bottom: none !important;
+}
+
+h1, h1 a {
+  font-weight: bold !important;
+  color: black !important;
+  margin-bottom: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+h2, h2 a {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+h2.post-title {
+  margin-top: -1.2em;
+  margin-left: 0.1em;
+  font-size: 3em;
+}
+
+h2.post-title, h2.post-title > a {
+  color: white !important;
+}
+
+.site-footer {
+  display: none;
+}
+
+.post-meta {
+  text-transform: lowercase;
+  font-style: italic;
+}
+
+.main-header {
+  border-bottom: 1px solid #c7c7c7;
+  padding-bottom: .5em;
+}
